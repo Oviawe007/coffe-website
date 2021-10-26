@@ -84,7 +84,7 @@ header {
   }
 .search-form {
   position: fixed;
-  display:none;
+  display:block;
   left: 1030px;
   top: 76px; /*76px */
   width: 250px;

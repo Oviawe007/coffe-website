@@ -31,12 +31,13 @@ cartItem.style.right = "-310px";
 searchForm.style.top = "76px";
 
 search.onclick = function() {
-    //alert("search me!")
+    //alert("search me!")gitadd .
     if(searchForm.style.top =="76px"){
         searchForm.style.top = "0";
     }
     else{
         searchForm.style.top = "76px";
+        
     }
 }
 
