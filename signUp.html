@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero"></section>
+
+    <h1 class="heading">welcome!,<span> sign up</span></h1>
+    <div class="row2">
+      <div class="form-control2">
+        <form id="form2">
+          <div class="error2" id="error2"></div>
+          <div class="group2" id="group2">
+            <span><i class="fa fa-user-o" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Enter firstname" id="fname" />
+          </div>
+
+          <div class="error3" id="error3"></div>
+          <div class="group2" id="group2">
+            <span><i class="fa fa-user-o" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Enter lastname" id="lname" />
+          </div>
+
+          <div class="error4" id="error4"></div>
+          <div class="group2" id="group2">
+            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <input
+              type="text"
+              placeholder="Enter phone number"
+              id="phone"
+              maxlength="11"
+            />
+          </div>
+
+          <div class="error5" id="error5"></div>
+          <div class="group2" id="group2">
+            <span><i class="fa fa-eye" aria-hidden="true"></i></span>
+            <input
+              type="password"
+              placeholder="enter password"
+              id="password1"
+            />
+            <span><i class="fa fa-eye" aria-hidden="true"></i></span>
+            <input
+              type="password"
+              placeholder="confirm password"
+              id="password2"
+            />
+          </div>
+
+          <span>Gender: </span>
+          <label for="gender">
+            Male
+            <input type="radio" placeholder="male" name="gender" value="male" />
+          </label>
+          <label for="gender">
+            Female
+            <input
+              type="radio"
+              placeholder="female"
+              name="gender"
+              value="female"
+            />
+          </label>
+
+          <button type="submit" class="btn" onclick="signUp()">Sign up</button>
+          <p>Already have an account? <a href="/login.html">Login</a></p>
+        </form>
+      </div>
+
+      <figure>
+        <div class="image">
+          <img src="images/signUP.jpg" alt="" />
+        </div>
+        <figcaption>
+          <p style="color: white">
+            Photo Credit: Photo by
+            <a
+              href="https://unsplash.com/@adolfofelix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >
+              Adolfo Félix</a
+            >
+            on
+            <a
+              href="https://unsplash.com/s/photos/register?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >
+              Unsplash</a
+            >
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <section class="footer">
+      <div class="social-link">
+        <a href="#" class="fa fa-facebook-f"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+        <a href="#">blogs</a>
+      </div>
+
+      <div class="credit">
+        created by <span>Efosa Oviawe</span> | all rights reserved
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
